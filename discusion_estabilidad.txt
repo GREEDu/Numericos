@@ -1,0 +1,22 @@
+Discusión sobre la estabilidad numérica en las Tareas 2.3 y 2.4
+-------------------------------------------------------------------
+
+En la Tarea 2.3 se estudian integrales que, aunque matemáticamente bien definidas, presentan
+dificultades al aproximarse numéricamente. El problema surge porque los integrandos contienen
+términos que divergen. con pasos muy pequeños, los valores calculados pueden volverse muy grandes o muy pequeños,
+produciendo pérdidas de precisión en la aritmética de punto flotante. Este es un ejemplo de un
+problema mal condicionado cerca del límite inferior de integración (q=0), esto afecta la estabilidad. La suma separada de I1 e I2 puede conducir a cancelaciones numéricas y resultados
+diferentes respecto a integrar directamente la suma de integrados
+
+En la Tarea 2.4 se analizan sumas finitas con aritmética de 16 bits. Aunque
+matemáticamente las sumas son estables , el orden de acumulación
+afecta mucho la estabilidad numérica. Si se empieza con los términos grandes, los más pequeños se
+pierden debido a la limitada precisión  (solo unas 3-4 cifras significativas en float16).
+En cambio, si se empieza con los términos pequeños, se aprovecha mejor la precisión y el resultado
+es más cercano al valor real. Este fenómeno se observa en ambas sumatorias.
+
+En conclusión:
+- La Tarea 2.3 es sensible a problemas de mal condicionamiento y cancelaciones cerca de q=0.
+- La Tarea 2.4 muestra cómo el orden de operaciones de baja precisión influye en la estabilidad del resultado y su resultado mismo.
+Basicamente la estabilidad numerica es un detalle importante. ya que incluso un problema definidio bien, puede ser inestable si no tenemos cuidado con 
+su formulacion o su orden y precisión
