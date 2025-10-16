@@ -32,3 +32,6 @@ print()
 print(f'sum 1/n^3 half (grande→chico) = {S3_big}')
 print(f'sum 1/n^3 half (chico→grande) = {S3_small}')
 print(f'sum 1/n^3 referencia (double) = {S3_ref:.6f}')
+
+# Nota: 5.0
+# Faltó analizar por qué uno de los dos métodos es más preciso que el otro.
