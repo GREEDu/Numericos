@@ -105,3 +105,9 @@ print("muy alejadas del valor verdadero de 10 m (varias más de 3 desviaciones e
 print("Los conjuntos restantes presentan solo pocas o ninguna medición fuera del rango esperado ")
 print("y son consistentes con un error gaussiano de ±0.1 m.")
 
+## Nota: 6.0
+
+# Uno de los conjuntos es anómalo porque
+# contiene todas sus mediciones dentro de una
+# desviación estándar. Nos esperamos aprox
+# un 32% fuera de este rango.
