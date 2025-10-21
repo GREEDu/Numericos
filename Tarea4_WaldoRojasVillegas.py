@@ -44,6 +44,7 @@ def main():
         std_sim = positions.std()
         mean_theory = N * (q - p)
         std_theory = 2.0 * np.sqrt(p * q * N)
+        # Falta deducir estas fórmulas teóricas
         print(f"\nProbabilidad de ir a la izquierda p={p} (derecha q={q})")
         print(f"Media simulada:      {mean_sim:.2f} m")
         print(f"Media teórica:       {mean_theory:.2f} m")
@@ -73,6 +74,7 @@ def main():
     print(f"\nRespuesta a la Tarea 4.8: en un paseo sin sesgo (p=0.5) y pasos de 1 m,\n"
           f"la distancia típica después de {N} pasos es aproximadamente {typical_distance:.2f} m.")
 
-
+# Nota: 5.5
+# Faltó detallar la deducción teórica, que se podía hacer usando el teorema central del límite.
 if __name__ == "__main__":
     main()
