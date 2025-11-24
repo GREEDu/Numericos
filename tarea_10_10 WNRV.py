@@ -1,3 +1,5 @@
+# %%
+
 import numpy as np
 from scipy.optimize import curve_fit
 
@@ -73,3 +75,7 @@ if __name__ == "__main__":
     mostrar("Datos 2", [r2_m1, r2_m2, r2_m3])
 
     print("\nEl mejor modelo es el que tiene chi^2 reducido más cercano a 1.")
+
+# Nota: 6.0
+# Faltó explicar por qué cambian los resultados entre los
+# dos conjuntos de datos.

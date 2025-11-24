@@ -89,3 +89,7 @@ if __name__ == "__main__":
     plt.title("Tarea 8.6 – Método de Taylor 2do orden con interpolación de Hermite")
     plt.grid(True)
     plt.show()
+
+# Nota: 4.5
+# Se pedía que la función devolviera la función interpolante, no la evaluación en un punto de esa interpolación.
+# Retraso en la entrega.

@@ -1,3 +1,4 @@
+# %%
 
 import numpy as np
 
@@ -71,3 +72,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Nota: 5.0
+# Retraso en la entrega.

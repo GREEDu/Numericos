@@ -54,3 +54,6 @@ fijo de ``p``.
 La aproximación mejora rápidamente al crecer ``n``; para ``n ≥ 50``
 la diferencia entre el valor exacto y la aproximación es menor
 que 10⁻⁵ nats."""
+
+# Nota: 5.0
+# Retraso en la entrega.

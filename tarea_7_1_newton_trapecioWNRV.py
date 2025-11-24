@@ -1,3 +1,5 @@
+#%%
+
 import numpy as np
 
 # Excepción igual que en las deñ curso
@@ -69,3 +71,7 @@ if __name__ == "__main__":
     # Verificación de la integral
     valor_integral = trapecio(normal_pdf, 0.0, raiz, N_TRAP)
     print(f"∫0^x φ(t) dt ≈ {valor_integral:.8f}")
+
+# Nota: 5.0
+# Retraso en la entrega.
+# Demasiado uso de IA sin citarla adecuadamente.

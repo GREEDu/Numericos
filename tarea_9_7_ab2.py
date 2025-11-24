@@ -1,3 +1,4 @@
+
 import numpy as np
 
 
@@ -77,3 +78,7 @@ if __name__ == "__main__":
     print("t\t\ty_aprox")
     for t, y in zip(ts, ys):
         print(f"{t:.4f}\t{y:.10f}")
+
+# Nota: 6.0
+# Retraso en la entrega.
+# Demasiado uso de IA sin citarla adecuadamente.
